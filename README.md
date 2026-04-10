@@ -1,11 +1,27 @@
-**Dashboard for Sales Manager**
+**Dashboard for Sales & Customer Analysis**
 ===============================
 ![Dashboard Demo](images/sales_dashboard_demo.gif)
 
-This dashboard was built to help marketing and sales teams track performance across their teams, understand client behavior, and identify which types of clients generate the most value. Based on my experience as an entrepreneur, I focused on highlighting how clients are acquired and how that process can be reverse-engineered to identify how the highest value clients are aquired.
+**Objective**
+-------------
+
+This dashboard was built to help marketing and sales teams track performance across their teams, understand client behavior, and identify which types of clients generate the most value.
+
+It answers the questions:
+
+- Who are our best clients and where are they coming from?
+- How good are we at closing those leads?
+- How are we acquiring those leads?
+
+**Key Insights**
+----------------
+- Sellers with the 'Shark' behaviour profile have the highest average revenue but contribute relatively little to the total revenue.
+- Sellers with the 'Cat' behaviour profile make up the highest percentage of sellers and contribute the most to revenue.
+- Organic and paid search generate the highest volume of leads out of all sources. They both have above average close rates.
+- We close leads from the 'Unknown' source at the highest rate (16.65%). Investigating what 'Unknown' means could be an important step to finding the most effective marketing channel(s).
 
 **Data Overview**
-----------------
+-----------------
 Two datasets were used in this project:
 
 - [Marketing Funnel by Olist](https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist?select=olist_closed_deals_dataset.csv)
